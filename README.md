@@ -5,9 +5,7 @@
 
 Linux crontab配置
 $crontab -e
-'*  *  *  *  *  *  python3 ddns.py'
-  
 格式为
-秒 分 时 日 月 星期 命令
+秒 分 时 日 月 星期 python3 ddns.py
 
 Windows请自行探索
